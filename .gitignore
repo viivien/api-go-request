@@ -1,0 +1,15 @@
+.env
+.docker_build/
+/.idea
+/pkg
+/src/github.com
+/src/golang.org
+/src/gopkg.in
+/cover.out
+/coverage.html
+/templates
+app
+
+.testCoverage.txt
+app.rsa
+app.rsa.pub
