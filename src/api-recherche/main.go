@@ -18,5 +18,5 @@ type Proposition struct {
 func main() {
 	router := InitializeRouter()
 
-	log.Fatal(http.ListenAndServe(":8080", router))
+	log.Fatal(http.ListenAndServe("", router))
 }
