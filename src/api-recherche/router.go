@@ -1,8 +1,9 @@
 package main
 
 import (
+	"api-recherche/controllers"
+
 	"github.com/gorilla/mux"
-	"github.com/viivien/api-go-request/controllers"
 )
 
 func InitializeRouter() *mux.Router {
