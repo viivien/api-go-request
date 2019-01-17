@@ -7,16 +7,6 @@ import (
 	"os"
 )
 
-type Recherche struct {
-	question     string
-	propositions map[string]int8
-}
-
-type Proposition struct {
-	Mot       string
-	Occurence int8
-}
-
 func main() {
 	router := InitializeRouter()
 
