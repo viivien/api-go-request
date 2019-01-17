@@ -2,6 +2,7 @@ package main
 
 import (
 	"github.com/gorilla/mux"
+	"github.com/viivien/api-go-request/controllers"
 )
 
 func InitializeRouter() *mux.Router {
@@ -9,6 +10,6 @@ func InitializeRouter() *mux.Router {
 	router := mux.NewRouter().StrictSlash(true)
 
 	router.Methods("GET").Path("/healthcheck").Name("healthcheck").HandlerFunc(controllers.HealthCheck)
-	router.Methods("GET").Path("/recherche").Name("recherche").HandlerFunc(controllers.RechercheOccurences)
+	//router.Methods("GET").Path("/recherche").Name("recherche").HandlerFunc(controllers.RechercheOccurences)
 	return router
 }
