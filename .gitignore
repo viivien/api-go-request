@@ -2,6 +2,7 @@
 .docker_build/
 /.idea
 /pkg
+/bin
 /cover.out
 /coverage.html
 /templates
