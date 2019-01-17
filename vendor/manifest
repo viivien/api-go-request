@@ -1,0 +1,11 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/gorilla/mux",
+			"repository": "https://github.com/gorilla/mux",
+			"revision": "08e7f807d38d6a870193019bb439056118661505",
+			"branch": "master"
+		}
+	]
+}
