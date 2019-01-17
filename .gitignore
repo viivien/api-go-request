@@ -2,9 +2,7 @@
 .docker_build/
 /.idea
 /pkg
-/src/github.com
-/src/golang.org
-/src/gopkg.in
+/bin
 /cover.out
 /coverage.html
 /templates
