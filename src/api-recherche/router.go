@@ -2,7 +2,6 @@ package main
 
 import (
 	"api-recherche/controllers"
-
 	"github.com/gorilla/mux"
 )
 
